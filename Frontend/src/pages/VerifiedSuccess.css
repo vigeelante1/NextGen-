@@ -1,0 +1,65 @@
+/* VerifiedSuccess.css */
+
+.verified-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top right, #ebf8ff, #ffffff, #e0e7ff);
+  padding: 1rem;
+}
+
+.verified-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.verified-icon {
+  width: 80px;
+  height: 80px;
+  color: #22c55e;
+  margin-bottom: 1rem;
+}
+
+.verified-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.verified-message {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+.verified-button {
+  display: inline-block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(to right, #3b82f6, #6366f1);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+
+.verified-button:hover {
+  background: linear-gradient(to right, #2563eb, #4f46e5);
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.6);
+  transform: translateY(-2px);
+}

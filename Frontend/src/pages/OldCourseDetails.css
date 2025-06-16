@@ -1,0 +1,21 @@
+.course-details-container {
+  text-align: center;
+  padding: 50px;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.enroll-btn {
+  background: #4dabf7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.enroll-btn:hover {
+  background: #1c1f26;
+}
